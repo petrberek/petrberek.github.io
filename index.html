@@ -1,160 +1,169 @@
-﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html>
+﻿<!DOCTYPE html>
+<html lang="cs">
 <head>
-    <meta http-equiv="content-type" content="text/html;utf-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CV Petr Berek</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', sans-serif; font-size: 16px; color: #222; background: #f5f5f5; }
+        .page { max-width: 820px; margin: 40px auto; background: #fff; padding: 48px 48px 40px; box-shadow: 0 1px 4px rgba(0,0,0,0.1); }
 
+        /* Header */
+        .header { margin-bottom: 24px; }
+        .header h1 { font-size: 28px; margin-bottom: 6px; }
+        .header .tagline { color: #555; margin-bottom: 6px; }
+        .header a { color: #1a6fb5; text-decoration: none; }
+
+        hr { border: none; border-top: 1px solid #ddd; margin: 20px 0; }
+
+        /* Summary */
+        .summary p { margin-bottom: 10px; line-height: 1.6; }
+
+        /* Two-column sections */
+        .section { display: flex; gap: 32px; padding: 16px 0; border-top: 1px solid #eee; }
+        .section-label { flex: 0 0 180px; font-weight: 700; font-size: 15px; color: #444; padding-top: 2px; }
+        .section-content { flex: 1; min-width: 0; }
+
+        .section-content .entry { margin-bottom: 18px; }
+        .section-content .entry:last-child { margin-bottom: 0; }
+        .section-content .entry-title { font-weight: 700; margin-bottom: 6px; }
+        .section-content ul { margin: 4px 0 0 20px; line-height: 1.6; }
+        .section-content li { margin-bottom: 3px; }
+        .section-content p { line-height: 1.6; margin-bottom: 6px; }
+
+        .context-line { color: #666; font-size: 14px; margin-top: 4px; }
+    </style>
 </head>
-<body style="text-align: center; font-family: sans-serif">
-<div id="stranka" style="width: 768px; padding: auto; margin: auto; text-align: justify; font-size: 16px">
-<div>
-<h1>Ing. Petr Berek</h1>
-<p>Propojuji fyzický a digitální svět | Embedded & IoT | Enterprise Architektura | Datově řízené a robustní systémy</p>
-Email: <a href="mailto:petr.berek@gmail.com">petr.berek@gmail.com</a>
-</div>
-<hr style="width: 100%" />
-<div>
-<p>Senior Software / Solution Architect s více než 10 lety praxe. Specializuji se na návrh a realizaci komplexních backendových systémů, jejich integraci s okolím a dlouhodobě provozovaných kritických aplikací.</p>
+<body>
+<div class="page">
 
-<p>Mám silný přesah do embedded a IoT oblasti (Arduino, ESP8266, MQTT), kde propojuji fyzická zařízení s moderními softwarovými architekturami. Zkušenosti kombinuji s akademickým zázemím v oblasti analýzy dat, algoritmů a výzkumu. </p>
-</div>
-<hr style="width: 100%" />
-<table style="font-size: 16px">
-	<tr><td><strong>Praxe a&nbsp;projekty</strong></td><td>&nbsp;</td></tr>
-	<tr><td>&nbsp;</td>
-		<td>
-			<p><b>2015 - dosud | Elinkx a.s. | Sofware senior developer, Software senior architekt</b></p>
-			<ul>
-				<li>Návrh a realizace informačních systémů v prostředí .NET,</li>
-				<li>architektura backendových aplikací s ohledem na dlouhodobou udržitelnost a rozvoj,</li>
-				<li>integrace interních i externích systémů (ERP, databáze, služby) s využitím AI,</li>
-				<li>dlouhodobá odpovědnost za stabilitu a rozvoj systémů,</li>
-				<li>řešení výkonových problémů, optimalizací a rozsáhlých refaktorů,</li>
-				<li>optimalizace a automatizace DevOps pro rychlejší nasazování aplikací.</li>
-			</ul>
-		</td>
-	</tr>
-	<tr><td>&nbsp;</td>
-		<td><p><b>2021 - dosud | SmartHome – regulace vytápění a integrace domácnosti | Autor, architekt</b></p>
-			<ul>
-				<li>Návrh a implementace vlastního regulátoru topného systému pro optimalizaci a efektivní řízení zdrojů pro vytápění,</li>
-				<li>integrace fyzických zařízení do Home Assistant,</li>
-				<li>důraz na stabilitu a bezpečný provoz kritického systému (vytápění),</li>
-				<li>sběr dat, automatizace, vzdálený dohled, optimalizace.</li>
-			</ul>
-		</td>
-	</tr>
-	<tr><td>&nbsp;</td>
-		<td><p><b>2015 | Language Partners | Autor, architekt</b></p>
-			<ul>
-				<li>Návrh a implementace systému pro evidenci zákazníků, zakázek a podporu podnikatelské činnosti.</li>
-				<li>Systém nahradil původní řešení s objednávkami a poskytl automatizované sledování termínů, výnosů a ziskovosti.</li>
-				<li>Zodpovědnost za architekturu řešení, návrh databází, backend logiku a integraci klíčových procesů.</li>
-			</ul>
-        </td>
-	</tr>
-	<tr><td>&nbsp;</td>
-		<td><p><b>2014 - 2016 | Czech-IT - Portál pro hodnocení autoservisů | Autor, architekt</b></p>
-			<ul>
-				<li>Návrh a implementace portálu umožňující hodnocení a diskusi o autoservisech.</li>
-				<li>Systém umožňoval uživatelům snadno sdílet zkušenosti, hodnotit kvalitu služeb a poskytoval přehledné statistiky pro správce portálu.</li>
-			</ul>
-		</td>
-	</tr>
-	<tr><td>&nbsp;</td>
-		<td><p><b>2014 | Renault Club ČR/SR - Vyhledávač | Autor, architekt</b></p>
-			<ul>
-				<li>Návrh a implementace vyhledávací portálu pro fórum Renault Club ČR/SR, umožňující rychlé a efektivní vyhledávání příspěvků a informací.</li>
-			</ul>
-		</td>
-	</tr>
-	<tr><td>&nbsp;</td>
-		<td><p><b>2012 | Vysoká škola báňská - Konferenční platební systém | Autor, architekt</b></p>
-			<ul>
-				<li>Analýza a implementace systému pro evidenci a správu plateb účastníků akademických konferencí.</li>
-				<li>Systém automatizoval registraci, evidenci plateb a vystavování potvrzení, čímž výrazně zjednodušil administrativní procesy katedry.</li>
-			</ul>
-		</td>
-	</tr>
-	<tr><td>&nbsp;</td>
-		<td><p><b>2011 - 2018 | Vysoká škola báňská | Výzkumný asistent, výuková činnost</b></p>
-			<ul>
-				<li>Evaluation of Traveling Salesman Problem Complexity by Clustering.</li>
-				<li>Multilayer network a obsahova analyza nad komunitou okolo kvazigrup.</li>
-				<li>Analýza a dolování dat z kolekcí objemných dat (bigdata)</li>
-				<li>Vedení přednášek a cvičení v předmětech základy programování, algoritmy, dokumentografické informační systémy a elektronické publikování.</li>
-			</ul>
-		</td>
-	</tr>
-	<tr><td>&nbsp;</td>
-		<td><p><b>2011 - 2015 | Národní superpočítačové centrum IT4Innovations | výzkumný asistent</b></p>
-			<ul>
-				<li>Výzkumný program IT pro zpracování znalostí</li>
-			</ul>
-		</td>
-	</tr>
+    <div class="header">
+        <h1>Ing. Petr Berek</h1>
+        <div class="tagline">Řeším problémy na pomezí fyzického a digitálního světa | Embedded &amp; IoT | Enterprise Architektura | Datově řízené systémy</div>
+        Email: <a href="mailto:petr.berek@gmail.com">petr.berek@gmail.com</a>
+    </div>
 
-	<tr><td>&nbsp;</td>
-		<td><p><b>Doplňky pro Visual Studio | Autor</b></p>
-			<ul>
-				<li>Urychlení vývojového procesu, minimalizace manuální kontroly kódu, validace a optimalizace SQL dotazů.</li>
-			</ul>
-		</td>
-	</tr>
-   
-	<tr><td><strong>Vědomosti</strong></td><td>&nbsp;</td></tr>
-	<tr><td>&nbsp;</td><td><b>Enterprise & systémová architektura</b>
-			<ul>
-				<li>Návrh a integrace interních i externích systémů.</li>
-				<li>Využití AI pro automatizaci, predikce a podporu rozhodování.</li>
-				<li>Dlouhodobý provoz kritických systémů, robustní a bezpečné řešení.</li>
-				<li>REST API, microservices, end-to-end integrace.</li>
-			</ul>
-		</td>
-	</tr>
-	<tr><td>&nbsp;</td><td><b>Embedded & IoT</b>
-			<ul>
-				<li>ESP8266, Arduino, MQTT, Home Assistant, senzory a akční členy.</li>
-				<li>Návrh, implementace a provoz spolehlivých IoT řešení.</li>
-			</ul>
-		</td>
-	</tr>
-	<tr><td>&nbsp;</td><td><b>Data & analytika</b>
-			<ul>
-				<li>Datová analýza, modelování, predikce, vizualizace.</li>
-				<li>Práce s daty z IoT a domácích systémů, podpora rozhodování na základě dat.</li>
-			</ul>
-		</td>
-	</tr>
-	<tr><td>&nbsp;</td><td><b>Metodiky a principy vývoje</b>
-			<ul>
-				<li>DDD, TDD, BDD, UML, návrhové vzory, verzovací systémy.</li>
-				<li>Analytický a systematický přístup, debugging kritických systémů.</li>
-			</ul>
-		</td>
-	</tr>
+    <hr>
 
-	<tr><td>&nbsp;</td><td>Nástroje a technologie volím s ohledem na doménovou oblast tak, aby vznikl predikovatelný, škálovatelný a snadno udržitelný systém.</td></td>
+    <div class="summary">
+        <p>Solution Architect, 10+ let praxe. Zajímá mě <strong>řešení problémů</strong>, ne jakou technologii použít.</p>
+        <p class="context-line"><b>Technologie: </b>.NET / C# | SQL (SQL Server, PostgreSQL) | Azure | Docker | Messaging (RabbitMQ, MQTT) | IoT (Arduino, ESP32) | Git | AI</p>
+    </div>
 
-	<tr><td><strong>Jazykové znalosti</strong></td><td>&nbsp;</td></tr>
-	<tr><td>&nbsp;</td><td>Anglický jazyk – úroveň C1</td></tr>
-	<tr><td>&nbsp;</td><td>Německý jazyk – pasivně</td></tr>
-	<tr><td><strong>Vzdělání</strong></td><td>&nbsp;</td></tr>
-	<tr><td>&nbsp;</td><td><b>2011 – 2018 (nedokončeno)</b><br />Vysoká škola báňská – Technická univerzita Ostrava, Fakulta elektrotechniky a informatiky, obor Informatika, doktorské studium
-Dizertační práce – Detekce spamu</td></tr>
-<tr><td>&nbsp;</td><td><b>2011 – 2013</b><br />Vysoká škola báňská – Technická univerzita Ostrava, Celoživotní vzdělávání, pedagogické studium pro učitele odborných předmětů. Závěrečná práce – Vliv vlastnosti osobnosti na studijní výsledky<br />
-</td></tr>
-<tr><td>&nbsp;</td><td><b>2009 - 2011</b><br />Vysoká škola báňská – Technická univerzita Ostrava, Fakulta elektrotechniky a informatiky, obor Informační a komunikační technologie, navazující magisterské studium <br />
-Diplomová práce – Různé náhledy na procesy popsané metodou BPM, udělený titul inženýr<br />
-</td></tr>
+    <!-- Problémy, které řeším -->
+    <div class="section">
+        <div class="section-label">Problémy, které řeším</div>
+        <div class="section-content">
 
-	<tr><td><strong>Publikační činnost</strong></td><td>&nbsp;</td></tr>
-	<tr><td>&nbsp;</td><td>Petr Berek, Jan Platos, Vaclav Snasel: <b>Stains detection on nanoparts images</b>. Wofex 2014. Udělena cena za nejlepší práci.</td></tr>
-	<tr><td>&nbsp;</td><td>Petr Berek, Michal Prilepok, Jan Platos, Václav Snásel: <b>Classification of EEG Signals Using Vector Quantization</b>. ICAISC 2014:107-118</td></tr>
-	<tr><td>&nbsp;</td><td>P Berek, M Prilepok, J Platos, V Snasel: <b>Similarity detection of image using vector quantization and compression</b>. Przegląd Elektrotechniczny 2013 (11), 62-64</td></tr>
-	<tr><td>&nbsp;</td><td>Michal Prilepok, Petr Berek, Jan Platos, Václav Snásel: <b>Detection using Data Compression and Signatures</b>. Cybernetics and Systems (CAS) 44(6-7):533-549 (2013)</td></tr>
-	
-</table>
+            <div class="entry">
+                <div class="entry-title">Monolitické a legacy systémy</div>
+                <ul>
+                    <li><strong>Refaktoring do clean architecture</strong>, zavedení domain modelu</li>
+                    <li>Zkrácení cyklu nasazení <strong>z měsíčního na 2–3 týdny</strong></li>
+                </ul>
+                <p class="context-line">Elinkx – enterprise aplikace</p>
+            </div>
+
+            <div class="entry">
+                <div class="entry-title">Systémy, které spolu nemluví</div>
+                <ul>
+                    <li><strong>End-to-end integrace</strong> ERP, e-commerce, interních služeb</li>
+                    <li>Automatizace obchodních procesů napříč platformami, <strong>včetně AI</strong></li>
+                </ul>
+                <p class="context-line">Elinkx – integrace e-commerce a ERP</p>
+            </div>
+
+            <div class="entry">
+                <div class="entry-title">Kritické systémy</div>
+                <ul>
+                    <li><strong>Vlastní regulátor vytápění</strong> – návrh, implementace, provoz</li>
+                    <li>Reverzní inženýrství protokolů, integrace do Home Assistant</li>
+                    <li>Vzdálený dohled, sběr dat, automatizace</li>
+                </ul>
+                <p class="context-line">SmartHome – Arduino, ESP8266, MQTT</p>
+            </div>
+
+            <div class="entry">
+                <div class="entry-title">Nedostatečný výkon</div>
+                <ul>
+                    <li>Identifikace úzkých míst, <strong>rozsáhlé refaktory a optimalizace</strong></li>
+                    <li>Od databázových dotazů po architekturu celé aplikace</li>
+                </ul>
+                <p class="context-line">Elinkx – dlouhodobě provozované systémy</p>
+            </div>
+
+            <div class="entry">
+                <div class="entry-title">Tým bez vize</div>
+                <ul>
+                    <li>Vedení vývojového týmu, code review, <strong>kultura kontinuálního zlepšování</strong></li>
+                    <li>Automatizace CI/CD – rychlejší a bezpečnější nasazování</li>
+                </ul>
+                <p class="context-line">Elinkx – vedení týmu a DevOps</p>
+            </div>
+
+            <div class="entry">
+                <div class="entry-title">Interpretace dat</div>
+                <ul>
+                    <li>Výzkum: analýza obrazu, klasifikace signálů, komprese dat</li>
+                    <li><strong>Datový přístup k rozhodování</strong> – uplatňuji i v komerčních projektech</li>
+                </ul>
+                <p class="context-line">VŠB-TUO, IT4Innovations</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Kde jsem působil -->
+    <div class="section">
+        <div class="section-label">Kde jsem působil</div>
+        <div class="section-content">
+            <p><strong>2015 – dosud</strong> | Elinkx a.s. – Senior developer, Senior architekt</p>
+            <ul><li>návrh a rozvoj enterprise aplikací, integrace systémů, vedení týmu</li></ul>
+            <p><strong>2021 – dosud</strong> | SmartHome – vlastní projekt, návrh a provoz IoT systému</p>
+            <p><strong>2009 – 2018</strong> | VŠB-TUO, IT4Innovations – výzkum, výuka, menší projekty</p>
+        </div>
+    </div>
+
+    <!-- Vzdělání -->
+    <div class="section">
+        <div class="section-label">Vzdělání</div>
+        <div class="section-content">
+
+            <div class="entry">
+                <div class="entry-title">2011 – 2018 | Doktorské studium</div>
+                <p>VŠB-TUO, Fakulta elektrotechniky a informatiky, obor Informatika.<br>Výzkum v oblasti detekce spamu, 4 odborné publikace, pedagogická činnost.</p>
+            </div>
+
+            <div class="entry">
+                <div class="entry-title">2011 – 2013 | Pedagogické studium</div>
+                <p>VŠB-TUO, celoživotní vzdělávání pro učitele odborných předmětů.<br>Závěrečná práce – Vliv vlastností osobnosti na studijní výsledky.</p>
+            </div>
+
+            <div class="entry">
+                <div class="entry-title">2009 – 2011 | Inženýrské studium</div>
+                <p>VŠB-TUO, Fakulta elektrotechniky a informatiky, obor Informační a komunikační technologie.<br>Diplomová práce – Různé náhledy na procesy popsané metodou BPM.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Odborné publikace -->
+    <div class="section">
+        <div class="section-label">Odborné publikace</div>
+        <div class="section-content">
+            <p>4 publikace v oblasti analýzy obrazu, klasifikace signálů a komprese dat – Wofex (2014, cena za nejlepší práci), ICAISC (2014), Przegląd Elektrotechniczny (2013), Cybernetics and Systems (2013).</p>
+        </div>
+    </div>
+
+    <!-- Jazykové znalosti -->
+    <div class="section">
+        <div class="section-label">Jazykové znalosti</div>
+        <div class="section-content">
+            <p>Anglický jazyk – úroveň C1, německý jazyk – pasivně</p>
+        </div>
+    </div>
+
 </div>
 </body>
 </html>
