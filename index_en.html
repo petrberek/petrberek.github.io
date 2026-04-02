@@ -1,72 +1,171 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta http-equiv="content-type" content="text/html;utf-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CV Petr Berek</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', sans-serif; font-size: 16px; color: #222; background: #f5f5f5; }
+        .page { max-width: 820px; margin: 40px auto; background: #fff; padding: 48px 48px 40px; box-shadow: 0 1px 4px rgba(0,0,0,0.1); }
 
+        /* Header */
+        .header { margin-bottom: 24px; }
+        .header h1 { font-size: 28px; margin-bottom: 6px; }
+        .header .tagline { color: #555; margin-bottom: 6px; }
+        .header a { color: #1a6fb5; text-decoration: none; }
+
+        hr { border: none; border-top: 1px solid #ddd; margin: 20px 0; }
+
+        /* Summary */
+        .summary p { margin-bottom: 10px; line-height: 1.6; }
+
+        /* Two-column sections */
+        .section { display: flex; gap: 32px; padding: 16px 0; border-top: 1px solid #eee; }
+        .section-label { flex: 0 0 180px; font-weight: 700; font-size: 15px; color: #444; padding-top: 2px; }
+        .section-content { flex: 1; min-width: 0; }
+
+        .section-content .entry { margin-bottom: 18px; }
+        .section-content .entry:last-child { margin-bottom: 0; }
+        .section-content .entry-title { font-weight: 700; margin-bottom: 6px; }
+        .section-content ul { margin: 4px 0 0 20px; line-height: 1.6; }
+        .section-content li { margin-bottom: 3px; }
+        .section-content p { line-height: 1.6; margin-bottom: 6px; }
+
+        .context-line { color: #666; font-size: 14px; margin-top: 4px; }
+    </style>
 </head>
-<body style="text-align: center; font-family: sans-serif">
-<div id="stranka" style="width: 768px; padding: auto; margin: auto; text-align: justify; font-size: 16px">
-<div>
-    <a href="index.html">Česky</a>
-<h1>Ing. Petr Berek</h1>
-Email: <a href="mailto:petr.berek@gmail.com">petr.berek@gmail.com</a>
-</div>
-<hr style="width: 100%" />
-<table style="font-size: 16px">
-	<tr><td><strong>Experience and projects</strong></td><td>&nbsp;</td></tr>
-        <tr><td>&nbsp;</td><td><p><b>2018</b><br />Visual Studio Add-On for basic code metrics<br /><a href="https://github.com/Zefek/MetricsAnalyzer">https://github.com/Zefek/MetricsAnalyzer</a><br />
-            <a href="https://marketplace.visualstudio.com/items?itemName=EF8980CD-E5F2-4113-92AE-5789026D677C.MetricsAnalyzer">Metrics Analyzer (Visual Studio Marketplace)</a>
-                               </p></td></tr>
-        <tr><td>&nbsp;</td><td><p><b>2016 - 2018</b><br />Vysoká škola báňská – research assistant<br />Evaluation of Traveling Salesman Problem Complexity by Clustering<br />Multilayer network a obsahova analyza nad komunitou okolo kvazigrup</p></td></tr>
-        <tr><td>&nbsp;</td><td><p><b>2016</b><br />Analysis and implementation Windows Live framework<br /><a href="https://github.com/Zefek/WLiveFW">https://github.com/Zefek/WLiveFW</a></p></td></tr>
-        <tr><td>&nbsp;</td><td><p><b>2015 - dosud</b><br />Elinkx a.s. - programmer, software architect</p></td></tr>
-		<tr><td>&nbsp;</td><td><p><b>2015</b><br />Analysis and implementation of information system for business support<br />.NET, MSSQL<br />2018: .NET Core upgrade<br /> Language Partners</p>
-            </td></tr>
-		<tr><td>&nbsp;</td><td><p><b>2014 - 2016</b><br />Analysis and implentation of portal for evaluation and discusion about Renault authorized dealers<a href="http://servisy.rnews.cz">http://servisy.rnews.cz</a><br />PHP, MySQL, AJAX<br /> Czech-IT</p></td></tr>
-		<tr><td>&nbsp;</td><td><p><b>2014 - 2015</b><br />Vysoká škola báňská – bigdata research assistant. </p></td></tr>
-		<tr><td>&nbsp;</td><td><p><b>2014</b><br />Analysis and implementation Renault club forum search portal<a href="http://vyhledavacforar.aspone.cz">http://vyhledavacforar.aspone.cz</a><br />ASP.NET, .NET, MSSQL<br /> </p></td></tr>
-		<tr><td>&nbsp;</td><td><p><b>2012</b><br />Vysoká škola báňská - Analysis and implementation conference payment system for informatics department<a href="http://dap.vsb.cz/regsys/app">http://dap.vsb.cz/regsys/app</a><br />ASP.NET, MSSQL, WebServices<br /></p></td></tr>
-		<tr><td>&nbsp;</td><td><p><b>2011 - 2015</b><br />Vysoká škola báňská – teaching at informatics department, lecture and training of subjects: Basic of programming, Algorithms, Documentary information systems, Electronic publications</p></td></tr>
-		<tr><td>&nbsp;</td><td><p><b>2011 - 2015</b><br />National supercomputing centrum IT4Innovations – research assistant at research program IT for knowledge mining</p></td></tr>
-	<tr><td><strong>Knowledge</strong></td><td>&nbsp;</td></tr>
-	<tr><td>&nbsp;</td><td>Web technologies: ASP.NET MVC, HTML, AJAX, REST API, CSS, PHP, Smarty templates<br />
-        Desktop technologies: Windows Forms</td></tr>
-	<tr><td>&nbsp;</td><td>Programming languages: C/C++, Java, C#, PHP, Delphi</td></tr>
-	<tr><td>&nbsp;</td><td>Database languages: MySQL, MSSQL, Entity Framework</td></tr>
-	<tr><td>&nbsp;</td><td>Object oriented programming in PHP, .NET, C++, Java</td></tr>
-	<tr><td>&nbsp;</td><td>Design patterns, UML diagrams, Version systems TFS a GIT<br />
-        Software design support methodologies - DDD, TDD, BDD</td></tr>
-	<tr><td><strong>Languages</strong></td><td>&nbsp;</td></tr>
-	<tr><td>&nbsp;</td><td>English – C1</td></tr>
-	<tr><td>&nbsp;</td><td>German – pasive knowledge</td></tr>
-	<tr><td><strong>Education</strong></td><td>&nbsp;</td></tr>
-	<tr><td>&nbsp;</td><td><b>2011 – 2018 (unfinished)</b><br />Vysoká škola báňská – Technical university of Ostrava, Fakulty elektrotechnics a informatics, Informatics department, postgradual studies
-Dizertation thesis – Spam detection</td></tr>
-<tr><td>&nbsp;</td><td><b>2011 – 2013</b><br />Vysoká škola báňská – Technical university of Ostrava, Livelong learning, pedagogical studies for technical subject teachers. Finish thesis – Impact of personality on study result.<br />
-<a href="./dvpp.pdf">Certificate</a> | <a href="./dvpp_zp.pdf">Finish thesis</a>
-</td></tr>
-<tr><td>&nbsp;</td><td><b>2009 - 2011</b><br />Vysoká škola báňská – Technical university of Ostrava, Fakulty of elektrotechnics and informatics, Informatics and comunication technologies, master studies<br />
-Diploma thesis – Different views to business process described by BPM method, master's degree<br />
-<a href="./diploming.pdf">Diploma</a> | <a href="./ingdodatek.pdf">Diploma Supplement</a> | <a href="./dp.pdf">Diploma thesis</a>
-</td></tr>
-<tr><td>&nbsp;</td><td><b>2006 - 2009</b><br />Vysoká škola báňská – Technical university of Ostrava, Fakulty of elektrotechnics and informatics, Informatics and comunication technologies, bachelor studies<br />
-Bachelor thesis – Design and implementation of high school information system (ASP.NET, MSSQL), bachelor degree<br />
-<a href="./diplombc.pdf">Diploma</a> | <a href="./bcdodatek.pdf">Diploma Supplement</a>
-</td></tr>
-<tr><td>&nbsp;</td><td><b>2002 - 2006</b><br />High industrial school Bruntál, Kavalcova 1, Electronics computer systems<br />
-School-leaving work – Implementation of high school information system (Delphi, MySQL). School-leaving exam with honors.
-</td></tr>
-<tr><td><strong>Skills</strong></td><td>&nbsp;</td></tr>
-	<tr><td>&nbsp;</td><td>MS Office, LaTeX, all ten fingers method</td></tr>
-	
-	<tr><td><strong>Publications</strong></td><td>&nbsp;</td></tr>
-	<tr><td>&nbsp;</td><td>Petr Berek, Jan Platos, Vaclav Snasel: Stains detection on nanoparts images. Wofex 2014. Udělena cena za nejlepší práci.</td></tr>
-	<tr><td>&nbsp;</td><td>Petr Berek, Michal Prilepok, Jan Platos, Václav Snásel: Classification of EEG Signals Using Vector Quantization. ICAISC 2014:107-118</td></tr>
-	<tr><td>&nbsp;</td><td>P Berek, M Prilepok, J Platos, V Snasel: Similarity detection of image using vector quantization and compression, Przegląd Elektrotechniczny 2013 (11), 62-64</td></tr>
-	<tr><td>&nbsp;</td><td>Michal Prilepok, Petr Berek, Jan Platos, Václav Snásel: Spam Detection using Data Compression and Signatures. Cybernetics and Systems (CAS) 44(6-7):533-549 (2013)</td></tr>
-	
-</table>
+<body>
+<div class="page">
+
+    <div style="text-align: right; font-size: 14px;"><a href="index.html" style="color: #1a6fb5; text-decoration: none;">Česky</a></div>
+
+    <div class="header">
+        <h1>Ing. Petr Berek</h1>
+        <div class="tagline">Bridging the physical and digital world | Embedded &amp; IoT | Enterprise Architecture | Data-driven systems</div>
+        Email: <a href="mailto:petr.berek@gmail.com">petr.berek@gmail.com</a> | <a href="https://www.linkedin.com/in/petr-berek-834834175">LinkedIn</a> | <a href="https://github.com/Zefek">GitHub</a>
+    </div>
+
+    <hr>
+
+    <div class="summary">
+        <p>Solution Architect, 10+ years of experience. I care about <strong>solving problems</strong>, not which technology to use.</p>
+        <p class="context-line"><b>Tech: </b>.NET / C# | SQL (SQL Server, PostgreSQL) | Azure | Docker | Messaging (RabbitMQ, MQTT) | IoT (Arduino, ESP32) | Git | AI</p>
+    </div>
+
+    <!-- Problems I solve -->
+    <div class="section">
+        <div class="section-label">Problems I solve</div>
+        <div class="section-content">
+
+            <div class="entry">
+                <div class="entry-title">Monolithic &amp; legacy systems</div>
+                <ul>
+                    <li><strong>Refactoring to clean architecture</strong>, introducing a domain model</li>
+                    <li>Shortened deployment cycle <strong>from monthly to 2–3 weeks</strong></li>
+                </ul>
+                <p class="context-line">Elinkx – enterprise application</p>
+            </div>
+
+            <div class="entry">
+                <div class="entry-title">Systems that don't talk to each other</div>
+                <ul>
+                    <li><strong>End-to-end integration</strong> of ERP, e-commerce, and internal services</li>
+                    <li>Business process automation across platforms, <strong>including AI</strong></li>
+                </ul>
+                <p class="context-line">Elinkx – e-commerce &amp; ERP integration</p>
+            </div>
+
+            <div class="entry">
+                <div class="entry-title">Mission-critical systems</div>
+                <ul>
+                    <li><strong>Custom heating controller</strong> – design, implementation, operation</li>
+                    <li>Reverse-engineering protocols, Home Assistant integration</li>
+                    <li>Remote monitoring, data collection, automation</li>
+                </ul>
+                <p class="context-line">SmartHome – Arduino, ESP8266, MQTT</p>
+            </div>
+
+            <div class="entry">
+                <div class="entry-title">Poor performance</div>
+                <ul>
+                    <li>Identifying bottlenecks, <strong>large-scale refactoring and optimization</strong></li>
+                    <li>From database queries to application-wide architecture</li>
+                </ul>
+                <p class="context-line">Elinkx – long-running systems</p>
+            </div>
+
+            <div class="entry">
+                <div class="entry-title">Team without direction</div>
+                <ul>
+                    <li>Dev team leadership, code review, <strong>culture of continuous improvement</strong></li>
+                    <li>CI/CD automation – faster and safer deployments</li>
+                </ul>
+                <p class="context-line">Elinkx – team lead &amp; DevOps</p>
+            </div>
+
+            <div class="entry">
+                <div class="entry-title">Making sense of data</div>
+                <ul>
+                    <li>Research: image analysis, signal classification, data compression</li>
+                    <li><strong>Data-driven decision making</strong> – applied in commercial projects as well</li>
+                </ul>
+                <p class="context-line">VŠB-TUO, IT4Innovations</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Experience -->
+    <div class="section">
+        <div class="section-label">Experience</div>
+        <div class="section-content">
+            <p><strong>2015 – present</strong> | Elinkx a.s. – Senior Developer, Senior Architect</p>
+            <ul><li>design and development of enterprise applications, system integration, team leadership</li></ul>
+            <p><strong>2021 – present</strong> | SmartHome – personal project, IoT system design &amp; operation</p>
+            <p><strong>2009 – 2018</strong> | VŠB-TUO, IT4Innovations – research, teaching, smaller projects</p>
+        </div>
+    </div>
+
+    <!-- Education -->
+    <div class="section">
+        <div class="section-label">Education</div>
+        <div class="section-content">
+
+            <div class="entry">
+                <div class="entry-title">2011 – 2018 | Doctoral studies</div>
+                <p>VŠB-TUO, Faculty of Electrical Engineering and Computer Science, Computer Science.<br>Research in spam detection, 4 academic publications, teaching.</p>
+            </div>
+
+            <div class="entry">
+                <div class="entry-title">2011 – 2013 | Teacher training</div>
+                <p>VŠB-TUO, lifelong learning programme for vocational subject teachers.<br>Thesis – The influence of personality traits on academic performance.</p>
+            </div>
+
+            <div class="entry">
+                <div class="entry-title">2009 – 2011 | Master's degree</div>
+                <p>VŠB-TUO, Faculty of Electrical Engineering and Computer Science, ICT.<br>Thesis – Different perspectives on processes described using BPM.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Publications -->
+    <div class="section">
+        <div class="section-label">Publications</div>
+        <div class="section-content">
+            <p>4 publications in image analysis, signal classification, and data compression – Wofex (2014, best paper award), ICAISC (2014), Przegląd Elektrotechniczny (2013), Cybernetics and Systems (2013).</p>
+        </div>
+    </div>
+
+    <!-- Languages -->
+    <div class="section">
+        <div class="section-label">Languages</div>
+        <div class="section-content">
+            <p>Czech – native | English – C1 | German – passive</p>
+        </div>
+    </div>
+
 </div>
 </body>
 </html>
